@@ -1,0 +1,31 @@
+#include <iostream>
+using namespace std;
+
+int sisi;
+int luas4, keliling4;
+
+void luas ();
+void keliling ();
+
+void luas ()
+{
+    cout << "Sisi  = ";
+    cin >> sisi;
+
+luas4 = sisi*sisi;
+cout << "Luas Persegi = " << luas4 << endl;
+}
+    
+void keliling ()
+{
+    keliling4 = sisi*4;
+    cout << "Keliling Persegi = " << keliling4 << endl;
+}
+
+int main ()
+{
+luas();
+keliling();
+
+return 0;
+}
